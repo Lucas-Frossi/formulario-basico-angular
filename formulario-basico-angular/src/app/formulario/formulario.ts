@@ -15,4 +15,7 @@ export class Formulario {
     idade: new FormControl(null, [Validators.required, Validators.min(0), Validators.max(120)]),
     cidade: new FormControl('', [Validators.required, Validators.minLength(3)])
   })
+
+  // Visibilidade dos botões
+  btnCadastrar: boolean = true
 }
