@@ -62,7 +62,7 @@
             <td>{{item.nome}}</td>
             <td>{{item.idade}}</td>
             <td>{{item.cidade}}</td>
-            <td><button class="btn btn-primary">Selecionar</button></td>
+            <td><button (click)="selecionar($index)" class="btn btn-primary">Selecionar</button></td>
         </tr>
         }
 
