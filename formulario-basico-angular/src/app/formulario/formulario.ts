@@ -83,4 +83,14 @@ export class Formulario {
     // Visibilidade dos botões
     this.btnCadastrar = true
   }
+
+  // Função de cancelamento
+  cancelar() {
+
+    // Limpeza dos inputs
+    this.formulario.reset()
+
+    // Visibilidade dos botões
+    this.btnCadastrar = true
+  }
 }
