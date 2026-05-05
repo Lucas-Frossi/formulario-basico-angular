@@ -70,4 +70,17 @@ export class Formulario {
     this.btnCadastrar = true
 
   }
+
+  // Função de remoção
+  remover() {
+
+    // Removendo pessoa do vetor
+    this.vetor.splice(this.indice, 1)
+
+    // Limpeza dos inputs
+    this.formulario.reset()
+
+    // Visibilidade dos botões
+    this.btnCadastrar = true
+  }
 }
